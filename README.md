@@ -8,3 +8,6 @@ This adapter is useful for a 3D printer so your Raspberry Pi (or other small com
 \
 \
 I have been using this adapter on my Longer LK5 Pro in conjunction with a Raspberry Pi 4 for roughly a year now, and I have no issues with it. 
+
+## Other
+This project is open source. Do what you want with it.
