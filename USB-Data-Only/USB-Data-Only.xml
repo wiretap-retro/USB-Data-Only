@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>\\192.168.1.100\Personal\Charlie\~Retro\~PCB's and Kits\USB Data Only\USB-Data-Only\USB-Data-Only.sch</source>
+    <date>11/26/2021 7:57:37 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USB Data Only</title>
+        <company>Original design by wiretap</company>
+        <rev>v0.1</rev>
+        <date>2021-09-24</date>
+        <source>USB-Data-Only.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Open Source, do what you want with it."/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>87520-0010BLF</value>
+      <footprint>875200010BLF</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/87520-0010BLF.pdf</datasheet>
+      <fields>
+        <field name="Description">USB 2.0 Type A receptacle white</field>
+        <field name="Height">7.8</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">87520-0010BLF</field>
+        <field name="Mouser Part Number">649-87520-0010BLF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/87520-0010BLF?qs=x6EjVpvqMVP%2F2to87x7cdQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="87520-0010BLF" description="USB 2.0 Type A receptacle white"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614E19FC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>UP2-AH-1-TH</value>
+      <footprint>UP2-AH-1-TH</footprint>
+      <datasheet>http://www.cui.com/product/resource/up2-ah-th.pdf</datasheet>
+      <fields>
+        <field name="Description">USB Connectors USB 2.0 type A plug 4 pin Horizontal TH</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">UP2-AH-1-TH</field>
+        <field name="Mouser Part Number">490-UP2-AH-1-TH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/UP2-AH-1-TH?qs=5mqXD9RfOg0slNuu3mCk4w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="UP2-AH-1-TH" description="USB Connectors USB 2.0 type A plug 4 pin Horizontal TH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614E3B27</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SamacSys_Parts" part="87520-0010BLF">
+      <description>USB 2.0 Type A receptacle white</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/87520-0010BLF.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">87520-0010BLF</field>
+        <field name="Footprint">875200010BLF</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/87520-0010BLF.pdf</field>
+        <field name="Description">USB 2.0 Type A receptacle white</field>
+        <field name="Height">7.8</field>
+        <field name="Mouser Part Number">649-87520-0010BLF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/87520-0010BLF?qs=x6EjVpvqMVP%2F2to87x7cdQ%3D%3D</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">87520-0010BLF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="UP2-AH-1-TH">
+      <description>USB Connectors USB 2.0 type A plug 4 pin Horizontal TH</description>
+      <docs>http://www.cui.com/product/resource/up2-ah-th.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UP2-AH-1-TH</field>
+        <field name="Footprint">UP2-AH-1-TH</field>
+        <field name="Datasheet">http://www.cui.com/product/resource/up2-ah-th.pdf</field>
+        <field name="Description">USB Connectors USB 2.0 type A plug 4 pin Horizontal TH</field>
+        <field name="Mouser Part Number">490-UP2-AH-1-TH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/UP2-AH-1-TH?qs=5mqXD9RfOg0slNuu3mCk4w%3D%3D</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">UP2-AH-1-TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="7" name="SHELL" type="unspc"/>
+        <pin num="8" name="SHELL" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/wiretap/Downloads/Kicad Library Downloads/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="MH1"/>
+      <node ref="J2" pin="MH2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="2" name="D+">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="3" name="D-">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SamacSys_Parts_87520-0010BLF
+#
+DEF SamacSys_Parts_87520-0010BLF J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SamacSys_Parts_87520-0010BLF" 750 200 50 H V L CNN
+F2 "875200010BLF" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/87520-0010BLF.pdf" 750 0 50 H I L CNN
+F4 "USB 2.0 Type A receptacle white" 750 -100 50 H I L CNN "Description"
+F5 "7.8" 750 -200 50 H I L CNN "Height"
+F6 "649-87520-0010BLF" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/87520-0010BLF?qs=x6EjVpvqMVP%2F2to87x7cdQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "87520-0010BLF" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_UP2-AH-1-TH
+#
+DEF SamacSys_Parts_UP2-AH-1-TH J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_UP2-AH-1-TH" 650 200 50 H V L CNN
+F2 "UP2-AH-1-TH" 650 100 50 H I L CNN
+F3 "http://www.cui.com/product/resource/up2-ah-th.pdf" 650 0 50 H I L CNN
+F4 "USB Connectors USB 2.0 type A plug 4 pin Horizontal TH" 650 -100 50 H I L CNN "Description"
+F5 "490-UP2-AH-1-TH" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/UP2-AH-1-TH?qs=5mqXD9RfOg0slNuu3mCk4w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "CUI Inc." 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "UP2-AH-1-TH" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+X SHELL 7 350 200 100 D 50 50 1 1 U
+X SHELL 8 450 200 100 D 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library

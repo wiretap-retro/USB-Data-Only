@@ -1,0 +1,96 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "USB Data Only"
+Date "2021-09-24"
+Rev "v0.1"
+Comp "Original design by wiretap"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Open Source, do what you want with it."
+$EndDescr
+$Comp
+L SamacSys_Parts:87520-0010BLF J2
+U 1 1 614E19FC
+P 4700 3550
+F 0 "J2" H 5150 3815 50  0000 C CNN
+F 1 "87520-0010BLF" H 5150 3724 50  0000 C CNN
+F 2 "875200010BLF" H 5450 3650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/87520-0010BLF.pdf" H 5450 3550 50  0001 L CNN
+F 4 "USB 2.0 Type A receptacle white" H 5450 3450 50  0001 L CNN "Description"
+F 5 "7.8" H 5450 3350 50  0001 L CNN "Height"
+F 6 "649-87520-0010BLF" H 5450 3250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/87520-0010BLF?qs=x6EjVpvqMVP%2F2to87x7cdQ%3D%3D" H 5450 3150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Amphenol" H 5450 3050 50  0001 L CNN "Manufacturer_Name"
+F 9 "87520-0010BLF" H 5450 2950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4700 3550
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 4050 0    50   ~ 0
+FEMALE
+$Comp
+L SamacSys_Parts:UP2-AH-1-TH J1
+U 1 1 614E3B27
+P 6300 3650
+F 0 "J1" H 7100 3950 50  0000 C CNN
+F 1 "UP2-AH-1-TH" H 7100 3850 50  0000 C CNN
+F 2 "UP2-AH-1-TH" H 6950 3750 50  0001 L CNN
+F 3 "http://www.cui.com/product/resource/up2-ah-th.pdf" H 6950 3650 50  0001 L CNN
+F 4 "USB Connectors USB 2.0 type A plug 4 pin Horizontal TH" H 6950 3550 50  0001 L CNN "Description"
+F 5 "" H 6950 3450 50  0001 L CNN "Height"
+F 6 "490-UP2-AH-1-TH" H 6950 3350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/UP2-AH-1-TH?qs=5mqXD9RfOg0slNuu3mCk4w%3D%3D" H 6950 3250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Inc." H 6950 3150 50  0001 L CNN "Manufacturer_Name"
+F 9 "UP2-AH-1-TH" H 6950 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6300 3650
+	1    0    0    -1  
+$EndComp
+Text Notes 6600 3950 0    50   ~ 0
+MALE
+Text GLabel 5700 3650 2    50   Input ~ 0
+D-
+Text GLabel 6200 3750 0    50   Input ~ 0
+D-
+Text GLabel 5700 3750 2    50   Input ~ 0
+D+
+Text GLabel 5700 3850 2    50   Input ~ 0
+GND
+Text GLabel 7200 3650 2    50   Input ~ 0
+D+
+Text GLabel 7200 3750 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6200 3750 6300 3750
+Wire Wire Line
+	7100 3650 7200 3650
+Wire Wire Line
+	7100 3750 7200 3750
+Wire Wire Line
+	5600 3750 5700 3750
+Wire Wire Line
+	5600 3850 5700 3850
+Wire Wire Line
+	5600 3650 5700 3650
+NoConn ~ 5600 3550
+NoConn ~ 6300 3650
+Text GLabel 6650 3350 1    50   Input ~ 0
+GND
+Text GLabel 6750 3350 1    50   Input ~ 0
+GND
+Text GLabel 4600 3550 0    50   Input ~ 0
+GND
+Text GLabel 4600 3650 0    50   Input ~ 0
+GND
+Wire Wire Line
+	6650 3350 6650 3450
+Wire Wire Line
+	6750 3350 6750 3450
+Wire Wire Line
+	4600 3550 4700 3550
+Wire Wire Line
+	4600 3650 4700 3650
+$EndSCHEMATC
